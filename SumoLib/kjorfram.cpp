@@ -25,11 +25,11 @@ void kjor(String i, int s, int d, bool sving_on_or_of) {
     if (sving_on_or_of) {
       sving(s);
     }
-    if  (i == "bak") {
-      motors.setSpeeds(-s, -s);
+    if  (i == "frem") {
+        motors.setSpeeds(s, s);
     }
-    else if  (i == "frem") {
-      motors.setSpeeds(s, s);
+    else if  (i == "bak") {
+      motors.setSpeeds(-s, -s);
     }
     else if (i == "stopp") {
       motors.setSpeeds(0, 0);
