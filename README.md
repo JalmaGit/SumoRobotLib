@@ -1,9 +1,10 @@
 # SumoRobotLib
-Her finner man sumo robot library
+Here you will find the SumoRobot library and it's arduino files.
 
-Den Installeres inn i library folderen på pc-en. 
- - Last ned githuben fra nettsiden
- - Først finne Arduino folderen. Den ligger oftest inni dokument-folderen.
- - Inni Arduino folderen finnes den en mappe som hetter "libraries".
- - I fila some ble lastet ned, ta SumoLib folderen og kopier den.
- - Lim Sumolib folderen inn i "libraries"-folderen som ble funnet fram.
+To get started you will first need to have the Arduino IDE downloaded and installed.
+Then you will have to go too the library manager and install the ZumoShield library
+After that is done, then you can download the files from this github page.
+
+When the files are downloaded you will need open the SumoLib folder.
+In the SumoLib folder there is two more folders. Open ArduinoSumoCode folder. Then open the ArduinoSumoCode.ino
+The other folder called ArduinoSumoCodeBonus is for if we have extra time on our hands.
