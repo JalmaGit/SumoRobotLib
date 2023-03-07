@@ -11,4 +11,4 @@ In the SumoLib folder there is two more folders. Open ArduinoSumoCode folder. Th
 Like this:
 SumoLib -> ArduinoSumoCode -> ArduinoSumoCode.ino
 
-The other folder called ArduinoSumoCodeBonus is for if we have extra time on our hands.
+The other folder called ArduinoSumoCodeBonus is for when we have extra time on our hands.
