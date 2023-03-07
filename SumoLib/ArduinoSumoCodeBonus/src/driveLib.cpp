@@ -13,8 +13,8 @@ Pushbutton button(ZUMO_BUTTON);
 
 ZumoBuzzer buzzer;
 const char starWars[] PROGMEM = "!V15 eee C8.G16 e C8.G16 E2";
-const char mario[] PROGMEM = "!V15 eee C5.G15 e C8.G16 E2";
-const char seven[] PROGMEM = "!V15 eee C8.G16 e C8.G16 E2";
+const char mario[] PROGMEM = "T180 O5 V15 E8E8 R8 E8 R8 C8 E G R4 >G R4 <C R8 >G R8 E R8 G B B8- G G6<E6G6 B F8G8 R8 E C8D8>B R8 <C R8 >G R8 E R8 G B B8- G G6<E6G6 B F8G8 R8 E C8D8>B R8 R4 <G8F8+F8 D+ E8 R8 >G8+A8<C8 R8 >A8<C8D8 R4 G8 F8+F8 D+ E8 R8 < C C8 C R4 R4 >G8F8+ F8 D+ E8 R8 >G8+A8<C8 R8 >G8<C8D8 R4 G- R4 F R4 C R4";
+const char seven[] PROGMEM = "O3 V15  E. E8 G8.E8.D8 C2 <B2 >E. E8 G8.E8.D8 C2 <B2 >E. E8 G8.E8.D8 C8.D8.C <B2";
 const char pirates[] PROGMEM = "!V15 eee C8.G16 e C8.G16 E2";
 
 void buttonStartAndStopp();

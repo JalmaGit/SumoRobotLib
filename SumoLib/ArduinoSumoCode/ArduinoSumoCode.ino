@@ -17,7 +17,7 @@ void loop() {
      In our case we want use an int between 0 - 400 which on the SumoRobot means a speed between 0 - 0.4 m/s.
      Any higher or lower will result in eiter just max speed or no speed.
      the delay function is a delay function that takes only positive whole numbers. The values translates to milliseconds
-  */
+  
 
   driveForward(200);
   delay(200);
@@ -27,5 +27,5 @@ void loop() {
   delay(200);
   turnRight(200);
   delay(200);
-
+*/
 }
