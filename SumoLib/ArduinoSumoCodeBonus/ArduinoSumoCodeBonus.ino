@@ -4,7 +4,7 @@
 void setup() { //Dette brukes første gang arduinoen starter for å set ting i gang.
   //The code stopps at this function and waits for the button to be pressed. Only used on start up.
   waitForButtonThenStart();
-  //This function plays a little melody, the melody choices are "Mario", "StarWars", "Pirates", "Seven".
+  //This function plays a little melody, the melody choices are "Mario", "StarWars", "Seven".
   music("StarWars");
 
 
