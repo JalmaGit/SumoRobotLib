@@ -10,7 +10,7 @@ void setup() { //This is used to run code once.
 
 }
 
-void loop() { //After "void setup()" the code will come here and run endlessly unless the device is turned off.
+void loop() { //After "void setup()" the code will run endlessly unless the device is turned off or reset.
 
   /*"If" statements are statement that checks if a condition is true or false then execute code depending on that.
     Sometimes you want to check multipile statements to make the program behave differently, based on the value the condition has.
