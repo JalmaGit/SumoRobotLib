@@ -1,7 +1,7 @@
 #include "src/driveLib.h"
 
 
-void setup() { //Dette brukes første gang arduinoen starter for å set ting i gang.
+void setup() { //This is used to run code once.
   //The code stopps at this function and waits for the button to be pressed. Only used on start up.
   waitForButtonThenStart();
   //This function plays a little melody, the melody choices are "Mario", "StarWars", "Seven".
@@ -10,7 +10,7 @@ void setup() { //Dette brukes første gang arduinoen starter for å set ting i g
 
 }
 
-void loop() {
+void loop() { //After "void setup()" the code will come here and run endlessly unless the device is turned off.
 
   /*"If" statements are statement that checks if a condition is true or false then execute code depending on that.
     Sometimes you want to check multipile statements to make the program behave differently, based on the value the condition has.

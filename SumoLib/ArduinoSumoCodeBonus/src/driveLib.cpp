@@ -24,9 +24,11 @@ void lineFollow(int trackSpeed) {
   sensors.read(sensor_values);
 
   if (sensor_values[0] > SENS_THRESHOLD) { //left turn
-    turnLeft(trackSpeed);
+    turnLeft(trackSpeed*2);
+    delay(25);
   } else if (sensor_values[5] > SENS_THRESHOLD) { //right turn
-    turnRight(trackSpeed);
+    turnRight(trackSpeed*2);
+    delay(25);
   } else {
     driveForward(trackSpeed);
   }
