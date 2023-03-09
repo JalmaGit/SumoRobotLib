@@ -42,6 +42,7 @@ void lineFollow(int trackSpeed) { //Here one function starts
    * Example: sensor_values[0] == SENS_THRESHOLD
    * "sensor_values[0] > or < or == SENS_THRESHOLD" <-- This is for the left sensor
    * "sensor_values[5] > or < or == SENS_THRESHOLD" <-- This is for the right sensor
+   * You could use Serial.println(sensor_values[]) to get info on what the sensors reads
    */
 
   if (/*Condition*/) {
